@@ -6,7 +6,7 @@ namespace ServiceLocatorTestProj
 {
     public class ServiceLocator : MonoBehaviour
     {
-        public static ServiceLocator instance;
+        private static ServiceLocator instance;
         public static ServiceLocator Instance
         {
             get

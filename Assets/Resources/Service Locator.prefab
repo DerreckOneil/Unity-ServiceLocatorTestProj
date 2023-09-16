@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3238831249215788709}
   - component: {fileID: 3238831249215788708}
+  - component: {fileID: -5573322258139979263}
+  - component: {fileID: 1513687388}
   m_Layer: 0
   m_Name: Service Locator
   m_TagString: Untagged
@@ -42,5 +44,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5521dbde967f4de41b9f62dadc473e9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-5573322258139979263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3238831249215788710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f81ad1f5915cc9429d50a2ba5cc70e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: 7481b47dd0f56f84abc5e34fc4e42669, type: 3}
+--- !u!114 &1513687388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3238831249215788710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2070a83959d720c4bac2f4376cc3e988, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
